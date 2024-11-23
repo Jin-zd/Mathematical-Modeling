@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.991
+Model:                            OLS   Adj. R-squared:                  0.982
+Method:                 Least Squares   F-statistic:                     111.1
+Date:                Wed, 23 Aug 2023   Prob (F-statistic):            0.00892
+Time:                        21:58:56   Log-Likelihood:                 11.933
+No. Observations:                   5   AIC:                            -17.87
+Df Residuals:                       2   BIC:                            -19.04
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -2.2739      1.342     -1.695      0.232      -8.047       3.499
+x              0.0111      0.009      1.224      0.346      -0.028       0.050
+I(x ** 2)   -7.38e-06    1.5e-05     -0.491      0.672   -7.21e-05    5.73e-05
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   2.677
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.587
+Skew:                          -0.615   Prob(JB):                        0.746
+Kurtosis:                       1.859   Cond. No.                     7.99e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.99e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.957
+Model:                            OLS   Adj. R-squared:                  0.943
+Method:                 Least Squares   F-statistic:                     66.59
+Date:                Wed, 23 Aug 2023   Prob (F-statistic):            0.00385
+Time:                        21:58:56   Log-Likelihood:               -0.76162
+No. Observations:                   5   AIC:                             5.523
+Df Residuals:                       3   BIC:                             4.742
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    -12.0750      1.390     -8.687      0.003     -16.499      -7.651
+x              0.0376      0.005      8.161      0.004       0.023       0.052
+==============================================================================
+Omnibus:                          nan   Durbin-Watson:                   1.406
+Prob(Omnibus):                    nan   Jarque-Bera (JB):                0.597
+Skew:                          -0.174   Prob(JB):                        0.742
+Kurtosis:                       1.343   Cond. No.                     2.58e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.58e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

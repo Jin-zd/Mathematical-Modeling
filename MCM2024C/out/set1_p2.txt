@@ -1,0 +1,5 @@
+p2_score_diff_test: 3.725500432883844e-09
+
+p2_mom_diff_test: 0.0
+
+p2_result: {1: ({'ssr_ftest': (0.48303244879521096, 0.48773564999139263, 236.0, 1), 'ssr_chi2test': (0.4891726917883704, 0.484296579935659, 1), 'lrtest': (0.48867276728628894, 0.4845199506190474, 1), 'params_ftest': (0.4830324487952502, 0.4877356499913572, 236.0, 1.0)}, [<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x00000205A23A3950>, <statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x00000205A23B41D0>, array([[0., 1., 0.]])])}
